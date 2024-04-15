@@ -1,0 +1,253 @@
+body {
+  background-color: #414659;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  background-color: #8bbccc;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  margin-left: 6px;
+  margin-right: 6px;
+}
+/* footer{
+  position: relative;
+top: 450px;
+} */
+
+/* Navbar- Navigation bar of the website */
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 3rem !important;
+  color: aqua !important;
+  }
+
+.home {
+  color: #f2f2f2;
+}
+
+.links {
+  text-decoration: none;
+  color: #797f98 !important;
+}
+
+.links:hover {
+  background-color: #2f70a4;
+  color: #f2f2f2;
+  border-radius: 25px;
+  border: #72b1e4;
+  padding: 7px;
+}
+
+.items {
+  /* gap: 2rem; */
+  font-weight: bold;
+  color: #797f98 !important;
+  font-family: "Times New Roman", serif !important;
+  text-decoration: none;
+  font-size: 1.2rem !important;
+  text-decoration: none;
+}
+
+.items > li > a:hover {
+  color: #e6a2f4 !important; 
+  transition: all 0.3s;
+}
+
+.title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 55px;
+  color: purple;
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.sign-up {
+  top: 20px;
+  text-decoration: none;
+  width: max-content;
+  color: azure;
+  border: 2px solid transparent;
+  border-radius: 20px; /* border curves*/
+  background: linear-gradient(#414659, #414659),
+    /*inside the box*/ radial-gradient(circle at top left, #fd00da, #19d7f8);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  margin-right: 40px;
+}
+
+.sign {
+  padding: 8px;
+}
+
+.sign-up:hover {
+  color: #47d7ff;
+  transition: all 0.3s;
+}
+
+.sign-up:hover {
+  color: #47d7ff;
+}
+.item-1 a.links {
+  text-decoration: underline;
+  color: #797f98;
+}
+
+.item-4:hover {
+  color: #47d7ff;
+}
+
+.item-5:hover {
+  color: #47d7ff;
+}
+
+.menubar {
+  height: 20%;
+  word-spacing: 30px;
+  float: right;
+  padding-top: 60px;
+  padding-right: 40px;
+}
+
+.after {
+  color: #797f98;
+  font-family: "Times New Roman", serif;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* content */
+/* .home-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.main-content {
+  position: absolute;
+} */
+
+.content-title {
+  /*font-family: cursive;*/
+  padding-left: 80px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 30px;
+  padding: 40px;
+  color: #209afd;
+  font-weight: bold;
+  background-color: #1b1b1b;
+}
+
+.content-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  font-size: 25px;
+  width: 50%;
+  display: flex;
+  margin-left: 30px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+  flex-direction: column;
+}
+
+p {
+  width: 85%;
+  text-align: justify;
+}
+
+.pic {
+  display: flex;
+  float: right;
+  width: 48%;
+  /* margin-top: -573px;
+  margin-right: -420px; */
+}
+
+.bold {
+  font-weight: 400;
+}
+
+/* buttons */
+
+.play-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: white;
+  border: 2px solid white;
+  border-radius: 50px;
+  width: 30%;
+}
+
+.play-btn:hover {
+  background: radial-gradient(circle at top left, #fd00da, #19d7f8);
+  border: 2px;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.btn {
+  color: white;
+  font-size: 1rem;
+}
+
+.more {
+  cursor: pointer;
+  font-size: 0.7rem;
+  letter-spacing: 1.2px;
+  text-decoration: none;
+  color: yellow;
+}
+/* 
+.ul {
+  margin: 14px;
+  display: inline-flex;
+} */
+
+/* copyright */
+.copyright {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: small;
+  text-align: center;
+  color: aliceblue;
+}
+
+.nike {
+  font-family: Helvetica, sans-serif;
+  font-size: 1rem;
+  color: aqua;
+  order: 1;
+}
+
+.Main_Paragraph {
+  color: white;
+  margin-top: 15px;
+  font-weight: 300;
+  font-size: 1.2rem;
+  line-height: 150%;
+  font-family: 'Poppins', sans-serif;
+}
