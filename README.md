@@ -1,4 +1,4 @@
-# ABC Corp ECommerce Web Application
+
 # Welcome to ABC Corp
 
 Welcome to ABC Corp, the future of online electronics shopping! At ABC Corp, we're dedicated to enriching your digital lifestyle with our comprehensive selection of the latest and greatest in electronic devices.
